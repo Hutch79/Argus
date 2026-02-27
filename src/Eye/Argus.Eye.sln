@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.Shared.Domain", "..\Shared\Argus.Shared.Domain\Argus.Shared.Domain.csproj", "{1FC47963-8356-469E-89A7-60E08E7F50A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.Eye.Application", "Argus.Eye.Application\Argus.Eye.Application.csproj", "{D398229B-F906-4A23-9DEB-4B38914F45EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.Eye.Domain", "Argus.Eye.Domain\Argus.Eye.Domain.csproj", "{6020E35B-F0E0-40F2-9CEF-D274410B4A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.Eye.Infrastructure", "Argus.Eye.Infrastructure\Argus.Eye.Infrastructure.csproj", "{5B9C5D6A-3347-4A04-BA61-7665AC7C0FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FC47963-8356-469E-89A7-60E08E7F50A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC47963-8356-469E-89A7-60E08E7F50A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC47963-8356-469E-89A7-60E08E7F50A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC47963-8356-469E-89A7-60E08E7F50A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D398229B-F906-4A23-9DEB-4B38914F45EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D398229B-F906-4A23-9DEB-4B38914F45EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D398229B-F906-4A23-9DEB-4B38914F45EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D398229B-F906-4A23-9DEB-4B38914F45EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6020E35B-F0E0-40F2-9CEF-D274410B4A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6020E35B-F0E0-40F2-9CEF-D274410B4A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6020E35B-F0E0-40F2-9CEF-D274410B4A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6020E35B-F0E0-40F2-9CEF-D274410B4A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B9C5D6A-3347-4A04-BA61-7665AC7C0FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9C5D6A-3347-4A04-BA61-7665AC7C0FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9C5D6A-3347-4A04-BA61-7665AC7C0FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9C5D6A-3347-4A04-BA61-7665AC7C0FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

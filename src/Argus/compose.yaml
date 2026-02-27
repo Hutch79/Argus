@@ -1,0 +1,7 @@
+﻿services:
+  argus.argus.api:
+    image: argus.argus.api
+    build:
+      context: .
+      dockerfile: Argus.Argus.Api/Dockerfile
+

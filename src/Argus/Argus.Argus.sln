@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.Argus.Api", "Argus.Argus.Api\Argus.Argus.Api.csproj", "{2B21902D-8791-4BB9-A5DA-35C51D0824C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C7A5D31-7D1B-4C1F-8E08-62E2B64754EA}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.Shared.Domain", "..\Shared\Argus.Shared.Domain\Argus.Shared.Domain.csproj", "{353D20B7-2724-4153-A01C-3C8EF3A88CBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.Argus.Application", "Argus.Argus.Application\Argus.Argus.Application.csproj", "{7290565F-A73C-4D3E-AB10-CE92C6301624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.Argus.Domain", "Argus.Argus.Domain\Argus.Argus.Domain.csproj", "{EBAC90D7-940D-4D12-922F-FA80AA2D8EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argus.Argus.Infrastructure", "Argus.Argus.Infrastructure\Argus.Argus.Infrastructure.csproj", "{AB9426FE-BF39-4047-840A-DC77FEC279ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B21902D-8791-4BB9-A5DA-35C51D0824C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B21902D-8791-4BB9-A5DA-35C51D0824C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B21902D-8791-4BB9-A5DA-35C51D0824C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B21902D-8791-4BB9-A5DA-35C51D0824C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{353D20B7-2724-4153-A01C-3C8EF3A88CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{353D20B7-2724-4153-A01C-3C8EF3A88CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{353D20B7-2724-4153-A01C-3C8EF3A88CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{353D20B7-2724-4153-A01C-3C8EF3A88CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7290565F-A73C-4D3E-AB10-CE92C6301624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7290565F-A73C-4D3E-AB10-CE92C6301624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7290565F-A73C-4D3E-AB10-CE92C6301624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7290565F-A73C-4D3E-AB10-CE92C6301624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBAC90D7-940D-4D12-922F-FA80AA2D8EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAC90D7-940D-4D12-922F-FA80AA2D8EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAC90D7-940D-4D12-922F-FA80AA2D8EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAC90D7-940D-4D12-922F-FA80AA2D8EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9426FE-BF39-4047-840A-DC77FEC279ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9426FE-BF39-4047-840A-DC77FEC279ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9426FE-BF39-4047-840A-DC77FEC279ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9426FE-BF39-4047-840A-DC77FEC279ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -12,6 +12,10 @@
     </ItemGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\Argus.Argus.Infrastructure\Argus.Argus.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
